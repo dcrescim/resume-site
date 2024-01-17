@@ -125,7 +125,20 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Python',
+    'TypeScript',
+    'Scikit-Learn',
+    'React',
+    'Tensorflow',
+    'Node.js',
+    'JAX',
+    'WebAssembly',
+    'PyTorch',
+    'WebGPU',
+    'SQL',
+    'ONNX',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +148,24 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Dan and I enjoy using computers to solve thorny problems. Whether it
+              be solving Wordle, or competing in Kaggle competitions, I've always loved trying to
+              get computers to understand the world at large.
+            </p>
+            <p>
+              The last ten years have brought a dizzying pace of ML-related innovation, and I have
+              been busy learning all about this magic. From ConvNets to Transformers, and from
+              scikit-learn to JAX, there is always something new on the horizon. Along the way, I've
+              written a scikit-compatible library for Javascript (scikit.js) as well as my own site
+              for solving reinforcement learning problems.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              Fast forward to today, and I’ve had the privilege of working at{' '}
+              <a href="https://www.humansecurity.com/">an bot detection company</a>,{' '}
+              <a href="https://commitswimming.com/">my own start-up</a>,{' '}
+              <a href="https://www.civitaslearning.com/">an ML-driven org to keep kids in school</a>
+              , and <a href="https://www.oldmissioncapital.com/">a quantitative finance company</a>.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
