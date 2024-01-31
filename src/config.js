@@ -8,7 +8,7 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/daniel-crescimanno-6926a62a/',
+      url: 'https://www.linkedin.com/in/daniel-crescimanno/',
     },
   ],
 
