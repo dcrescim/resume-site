@@ -161,8 +161,8 @@ const About = () => {
             </p>
 
             <p>
-              Fast forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://www.humansecurity.com/">an bot detection company</a>,{' '}
+              Fast forward to today, and I’ve had the privilege of working at a{' '}
+              <a href="https://www.humansecurity.com/">bot detection company</a>,{' '}
               <a href="https://commitswimming.com/">my own start-up</a>,{' '}
               <a href="https://www.civitaslearning.com/">an ML-driven org to keep kids in school</a>
               , and <a href="https://www.oldmissioncapital.com/">a quantitative finance company</a>.
